@@ -59,7 +59,6 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
     if (isValid) {
         alert('Registration successful!');
-        // You can add form submission logic here, e.g., sending data to a server
         document.getElementById('registrationForm').reset();
     }
 });
